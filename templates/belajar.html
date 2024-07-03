@@ -47,7 +47,8 @@
               Fructus </a>
           </li>
           <li>
-            <a href="{{ url_for('classification') }}"> <i class="menu-icon fa fa-image"></i>Identifikasi Fructus</a>
+            <a href="{{ url_for('classification') }}"> <i class="menu-icon fa fa-image"></i>Image
+              Classification </a>
           </li>
           <li>
             <a href="{{ url_for('tentang') }}"> <i class="menu-icon fa fa-info"></i>Tentang Pengembang</a>
@@ -128,32 +129,16 @@
 
               <ul class="nav nav-pills mb-3" id="myTab" role="tablist">
                 <li class="nav-item">
-                  <a class="nav-link active" id="albi-tab" data-toggle="tab" href="#albi" role="tab"
-                    aria-controls="albi" aria-selected="true">Piperis Albi Fructus</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" id="cumini-tab" data-toggle="tab" href="#cumini" role="tab" aria-controls="cumini"
-                    aria-selected="false">Cumini Fructus</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" id="nigri-tab" data-toggle="tab" href="#nigri" role="tab" aria-controls="nigri"
-                    aria-selected="false">Piperis Nigri Fructus</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" id="amomi-tab" data-toggle="tab" href="#amomi" role="tab" aria-controls="amomi"
+                  <a class="nav-link active" id="amomi-tab" data-toggle="tab" href="#amomi" role="tab" aria-controls="amomi"
                     aria-selected="false">Amomi Fructus</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" id="retrofractum-tab" data-toggle="tab" href="#retrofractum" role="tab"
-                    aria-controls="retrofractum" aria-selected="false">Piper Retrofractum Fructus</Frame></a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" id="anisi-tab" data-toggle="tab" href="#anisi" role="tab" aria-controls="anisi"
                     aria-selected="false">Anisi Fructus</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" id="foeniculi-tab" data-toggle="tab" href="#foeniculi" role="tab"
-                    aria-controls="foeniculi" aria-selected="false">Foeniculi Fructus</a>
+                  <a class="nav-link" id="bruceae-tab" data-toggle="tab" href="#bruceae" role="tab"
+                    aria-controls="bruceae" aria-selected="false">Bruceae Fructus</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" id="capsici2-tab" data-toggle="tab" href="#capsici2" role="tab"
@@ -162,14 +147,6 @@
                 <li class="nav-item">
                   <a class="nav-link" id="capsici-tab" data-toggle="tab" href="#capsici" role="tab"
                     aria-controls="capsici" aria-selected="false">Capcisi Frutecentis Fructus</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" id="tamarin-tab" data-toggle="tab" href="#tamarin" role="tab"
-                    aria-controls="tamarin" aria-selected="false">Tamarindus Indica Fructus</Frame></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" id="vanila-tab" data-toggle="tab" href="#vanila" role="tab" aria-controls="vanila"
-                    aria-selected="false">Vanilae Fructus</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" id="coptici-tab" data-toggle="tab" href="#coptici" role="tab"
@@ -184,6 +161,22 @@
                     aria-controls="cubebae" aria-selected="false">Cubebae Fructus</a>
                 </li>
                 <li class="nav-item">
+                  <a class="nav-link" id="cumini-tab" data-toggle="tab" href="#cumini" role="tab" aria-controls="cumini"
+                    aria-selected="false">Cumini Fructus</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="foeniculi-tab" data-toggle="tab" href="#foeniculi" role="tab"
+                    aria-controls="foeniculi" aria-selected="false">Foeniculi Fructus</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="gossypium-tab" data-toggle="tab" href="#gossypium" role="tab"
+                    aria-controls="gossypium" aria-selected="false">Gossypium Depuratum Fructus</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="isorae-tab" data-toggle="tab" href="#isorae" role="tab" aria-controls="isorae"
+                    aria-selected="false">Isorae Fructus</a>
+                </li>
+                <li class="nav-item">
                   <a class="nav-link" id="melaleucae-tab" data-toggle="tab" href="#melaleucae" role="tab"
                     aria-controls="melaleucae" aria-selected="false">Melaleucae Fructus</a>
                 </li>
@@ -192,31 +185,39 @@
                     aria-controls="morinda" aria-selected="false">Morinda Citrifoliae Fructus</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" id="isorae-tab" data-toggle="tab" href="#isorae" role="tab" aria-controls="isorae"
-                    aria-selected="false">Isorae Fructus</a>
-                </li>
-                <li class="nav-item">
                   <a class="nav-link" id="papaveris-tab" data-toggle="tab" href="#papaveris" role="tab"
                     aria-controls="papaveris" aria-selected="false">Papaveris Fructus</a>
                 </li>
                 <li class="nav-item">
+                  <a class="nav-link" id="albi-tab" data-toggle="tab" href="#albi" role="tab"
+                    aria-controls="albi" aria-selected="true">Piperis Albi Fructus</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="nigri-tab" data-toggle="tab" href="#nigri" role="tab" aria-controls="nigri"
+                    aria-selected="false">Piperis Nigri Fructus</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="retrofractum-tab" data-toggle="tab" href="#retrofractum" role="tab"
+                    aria-controls="retrofractum" aria-selected="false">Piper Retrofractum Fructus</Frame></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="tamarin-tab" data-toggle="tab" href="#tamarin" role="tab"
+                    aria-controls="tamarin" aria-selected="false">Tamarindus Indica Fructus</Frame></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="vanila-tab" data-toggle="tab" href="#vanila" role="tab" aria-controls="vanila"
+                    aria-selected="false">Vanilae Fructus</a>
+                </li>
+                <li class="nav-item">
                   <a class="nav-link" id="wood-tab" data-toggle="tab" href="#wood" role="tab" aria-controls="wood"
                     aria-selected="false">Woodfordiae Fructus</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" id="bruceae-tab" data-toggle="tab" href="#bruceae" role="tab"
-                    aria-controls="bruceae" aria-selected="false">Bruceae Fructus</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" id="gossypium-tab" data-toggle="tab" href="#gossypium" role="tab"
-                    aria-controls="gossypium" aria-selected="false">Gossypium Depuratum Fructus</a>
                 </li>
               </ul>
               <hr>
               <p class="mb-0"></p>
               <!-- ...............................INI BAGIAN PIPERIS ALBI FRUCTUS PRUCTUS............................................................................. -->
               <div class="tab-content pl-3 p-1" id="myTabContent">
-                <div class="tab-pane fade show active" id="albi" role="tabpanel" aria-labelledby="albi-tab">
+                <div class="tab-pane fade" id="albi" role="tabpanel" aria-labelledby="albi-tab">
                   <div class="row">
                     <div class="col-lg-12 mt-lg-0">
                       <div class="about-thumb">
@@ -748,7 +749,7 @@
                   </div>
                 </div>
                 <!-- ...............................INI BAGIAN AMOMI PRUCTUS............................................................................. -->
-                <div class="tab-pane fade" id="amomi" role="tabpanel" aria-labelledby="amomi-tab">
+                <div class="tab-pane fade show active" id="amomi" role="tabpanel" aria-labelledby="amomi-tab">
                   <div class="row">
                     <div class="col-lg-12 mt-lg-0">
                       <div class="about-thumb">
