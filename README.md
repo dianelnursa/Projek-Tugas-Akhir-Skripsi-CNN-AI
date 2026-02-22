@@ -45,8 +45,7 @@ Demo penggunaan aplikasi dapat dilihat melalui video berikut:
 - 📊 Menampilkan hasil prediksi
 - 📈 Visualisasi akurasi training & validasi
 - 📉 Confusion matrix untuk evaluasi model
-- 🎓 Konten pembelajaran untuk siswa Farmasi
-- 💻 Antarmuka web sederhana dan mudah digunakan
+- 🎓 Konten pembelajaran untuk siswa Farmasi yang User Friendly dengan Pengujian terhadap aplikasi berbasis ISO 25010
 
 ---
 
