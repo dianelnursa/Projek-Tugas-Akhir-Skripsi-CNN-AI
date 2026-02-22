@@ -111,12 +111,19 @@ Projek-Tugas-Akhir-Skripsi-CNN-AI/
 - Project: Tugas Akhir / Skripsi
 - Bidang: Artificial Intelligence & Web Development
 
+
 ---
 
 📄 Lisensi
 
 Project ini dikembangkan untuk keperluan akademik dan pembelajaran.
 Penggunaan ulang diperbolehkan dengan mencantumkan sumber.
+
+Apabila terdapat pertanyaan lebih lanjut terkait aplikasi ini, metode yang digunakan, atau permintaan source code training model dan dataset projek, silakan menghubungi pengembang melalui email berikut:
+
+📧 Email: dianelnursa@gmail.com
+
+Permintaan file training model akan dipertimbangkan khusus untuk keperluan akademik dan penelitian, dengan tetap memperhatikan etika penggunaan data dan hak cipta.
 
 ---
 
