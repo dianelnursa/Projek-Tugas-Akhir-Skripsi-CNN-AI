@@ -4,7 +4,7 @@
 
 Aplikasi ini merupakan aplikasi pembelajaran berbasis web yang dikembangkan untuk membantu siswa **Farmasi** dalam mengidentifikasi jenis simplisia fructus menggunakan citra digital.
 
-Aplikasi memanfaatkan teknologi Deep Learning dengan model Convolutional Neural Network (CNN) untuk melakukan klasifikasi citra simplisia fructus secara otomatis dengan tingkat akurasi yang tinggi. Sistem ini diharapkan dapat menjadi media pembelajaran interaktif dan inovatif dalam mata pelajaran Farmakognosi.
+Aplikasi memanfaatkan teknologi Deep Learning dengan model Convolutional Neural Network (CNN) untuk melakukan klasifikasi citra simplisia fructus secara otomatis dengan tingkat akurasi yang optimal, tidak overfit maupun underfit. Sistem ini diharapkan dapat menjadi media pembelajaran interaktif dan inovatif dalam mata pelajaran Farmakognosi.
 
 ---
 
