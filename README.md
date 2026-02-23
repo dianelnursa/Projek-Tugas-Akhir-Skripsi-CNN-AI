@@ -3,8 +3,16 @@
 📖 Deskripsi
 
 Aplikasi ini merupakan aplikasi pembelajaran berbasis web yang dikembangkan untuk membantu siswa **Farmasi** dalam mengidentifikasi jenis simplisia fructus menggunakan citra digital.
+Dataset yang digunakan dalam pengembangan aplikasi ini terdiri atas citra beberapa jenis simplisia fructus, yaitu:
+1. Piperis Albi Fructus (Lada Putih)
+2. Piperis Nigri Fructus (Lada Hitam)
+3. Piper Retrofractum Fructus (Cabai Jawa)
+4. Cumini Fructus (Jinten)
+5. Amomi Fructus (Kapulaga)
+6. Capsici Frutescentis Fructus (Cabai Rawit)
 
 Aplikasi memanfaatkan teknologi Deep Learning dengan model Convolutional Neural Network (CNN) untuk melakukan klasifikasi citra simplisia fructus secara otomatis dengan tingkat akurasi yang optimal, tidak overfit maupun underfit. Sistem ini diharapkan dapat menjadi media pembelajaran interaktif dan inovatif dalam mata pelajaran Farmakognosi.
+
 
 ---
 
